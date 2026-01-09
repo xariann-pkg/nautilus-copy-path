@@ -1,9 +1,7 @@
 # .packit.yaml
 specfile_path: nautilus-copy-path.spec
-
 upstream_package_name: nautilus-copy-path
-# Matches the tag format: nautilus-copy-path-1.0
-upstream_tag_template: "nautilus-copy-path-{version}"
+upstream_tag_template: "{version}"
 
 files_to_sync:
   - nautilus-copy-path.spec
