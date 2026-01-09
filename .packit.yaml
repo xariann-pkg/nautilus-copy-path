@@ -1,0 +1,23 @@
+# .packit.yaml
+specfile_path: nautilus-copy-path.spec
+
+upstream_package_name: nautilus-copy-path
+# Matches the tag format: nautilus-copy-path-1.0
+upstream_tag_template: "nautilus-copy-path-{version}"
+
+files_to_sync:
+  - nautilus-copy-path.spec
+  - .packit.yaml
+
+jobs:
+  - job: copr_build
+    trigger: release
+    owner: xariann
+    project: tools
+    targets:
+      - fedora-all
+
+  - job: copr_build
+    trigger: pull_request
+    targets:
+      - fedora-all
