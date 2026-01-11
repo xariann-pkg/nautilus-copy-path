@@ -1,4 +1,4 @@
-# Nautilus Copy Path/Name
+# Nautilus Copy Path/Name [![Copr build status](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/)
 
 ![ScreenShot](https://raw.githubusercontent.com/chr314/nautilus-copy-path/master/screenshot.png)
 
