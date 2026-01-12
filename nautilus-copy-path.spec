@@ -4,7 +4,7 @@ Release:        %autorelease
 Summary:        Nautilus extension to copy path, URI, name or content
 
 License:        MIT
-URL:            https://github.com/Xarianne/nautilus-copy-path
+URL:            https://github.com/xariann-pkg/nautilus-copy-path
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
