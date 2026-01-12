@@ -1,5 +1,5 @@
 Name:           nautilus-copy-path
-Version:        1.2
+Version:        1.3
 Release:        %autorelease
 Summary:        Nautilus extension to copy path, URI, name or content
 
