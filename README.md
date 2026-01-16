@@ -1,4 +1,4 @@
-# Nautilus Copy Path/Name [![Copr build status](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/)
+# Nautilus Copy Path/Name
 
 ![ScreenShot](https://raw.githubusercontent.com/chr314/nautilus-copy-path/master/screenshot.png)
 
@@ -9,11 +9,19 @@
 1. `yay -S nautilus-copy-path` or `yaourt -S nautilus-copy-path`
 2. Restart the Nautilus (`nautilus -q`)
 
+
+## Fedora Copr [![Copr build status](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/status_image/last_build.png)](https://copr.fedorainfracloud.org/coprs/xariann/tools/package/nautilus-copy-path/)
+
+1. Add this repo `sudo dnf copr enable xariann/tools`
+2. Install the package `sudo dnf install nautilus-copy-path`
+3. Restart the Nautilus (`nautilus -q`)
+
 ## Net Install
 
 ```bash
 curl -L https://raw.githubusercontent.com/chr314/nautilus-copy-path/master/net-installer.sh | bash
 ```
+
 
 ## Manual installation
 
